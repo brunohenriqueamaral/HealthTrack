@@ -1,0 +1,130 @@
+    
+.btn-primary1{
+    
+    background-color: rgb(63, 177, 177);    
+}
+
+.btn-primary2{
+    color: black;
+    background-color: rgb(140, 165, 165);    
+}
+
+.img{
+    opacity: 0.5; 
+}
+
+.aberto{
+    color: red;
+}
+
+.avatar {
+    max-width:100px;
+    max-height:75px;
+    width: auto;
+    height: auto;
+}
+
+.pago{
+    color: rgb(50, 177, 50);
+}
+
+
+.btn-delete{
+    background-color: rgb(168, 35, 35);
+}
+
+.btn-Edit{
+    background-color: rgb(0, 187, 100);
+}
+
+
+#RecuperaSenha{
+    background-color: rgba(245, 245, 245, 0.897);
+}
+
+#formulario{
+    background-color: rgba(245, 245, 245, 0.726);
+}
+
+.btn-voltar{
+    background-color: tomato;
+}
+
+.planos{
+    background-color: rgba(245, 245, 245, 0.842);
+}
+
+.btn-custom{
+    background-color: rgb(171, 197, 191);
+}
+
+#container {
+    align-self: center;
+}
+
+#formulario{
+    padding: 0px;
+ margin: auto;
+}
+
+#BoasVindas{
+    text-align: right;
+    
+}
+
+#nome, #email, #senha, #CPF,#altura,#DataNasci {
+    background-color: rgba(116, 173, 154, 0.877);
+
+}
+
+.right {
+    float: right;
+    width: 100px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+
+  .left {
+    float: left;
+    width: 100px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+
+ 
+  .centerCustom1{
+    padding: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .center{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+
+  .centerCustom{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .centerCustom2{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  .principal{
+      background: "C:\Users\Bruno\Desktop\front fiap\tarefa\img\background.jpg"
+  }

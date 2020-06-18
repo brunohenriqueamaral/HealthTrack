@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+    <head>
+
+        <title>Cadastro</title>
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="width=device-width, inicial-scale=1">
+        <link rel="stylesheet"
+        href="css/bootstrap.min.css">
+        <link rel="stylesheet"
+        href="style.css">      
+        
+    </head>    
+
+    <body background="img/background.jpg">
+        <div class="container">
+            <header class="row centerCustom">
+                <h1>Cadastre-se</h1>
+            </header>
+        </div>
+            
+        <div class="container">
+        <form class="form-horizontal" id="formulario" method="POST">
+           
+                
+            <div class="form-group">
+                <label  class="col-md-6 offset-md-3 centerCustom1" for="nome">Nome Completo:</label>
+                    <div  class="col-md-6 offset-md-3 centerCustom1">
+                        <input type="text" id="nome">
+                    </div>
+            </div>
+            
+            <div class="form-group">        
+                <label class="col-md-6 offset-md-3 centerCustom1" for="email">E-mail:</label>
+                <div class="col-md-6 offset-md-3 centerCustom1">
+                    <input type="email" id="email">
+                </div>
+            </div>
+            <div class="form-group">        
+                <label  class="col-md-6 offset-md-3 centerCustom1"for="senha">Senha:</label>
+                <div  class="col-md-6 offset-md-3 centerCustom1" >
+                    <input type="password" id="senha">
+                </div>
+            </div>
+            <div class="form-group">        
+                <label  class="col-md-6 offset-md-3 centerCustom1"for="CPF">CPF:</label>
+                <div  class="col-md-6 offset-md-3 centerCustom1">
+                    <input type="number" id="CPF">
+                </div>
+            </div>
+            <div class="form-group">        
+                <label  class="col-md-6 offset-md-3 centerCustom1"for="Altura">Altura:</label>
+                <div  class="col-md-6 offset-md-3 centerCustom1">
+                    <input type="number" id="altura">
+                </div>
+            </div>
+            <div class="form-group">        
+                <label  class="col-md-6 offset-md-3 centerCustom1"for="DataNasci">Data de Nascimento:</label>
+                <div  class="col-md-6 centerCustom1 offset-md-3 ">
+                    <input type="date" id="DataNasci">
+                </div>
+            </div>
+            
+            <label class="offset-md-4 "for="sexo"><b>Sexo: </b></label>
+            <form id="formulário" method="POST">
+                <select id="Sexo" name="Sexo">
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                  
+                </select>
+            
+            </form>
+            
+        </form>
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </div>
+
+    </body>
+    
+    <footer>        
+            <a href="principal.html"><button type="button" class="btn btn-primary1 btn-lg btn-voltar ">Voltar</button></a>            
+        
+            <a href="Planos.html"><button type="button" class="btn btn-primary1 btn-lg btn-block">Confirmar</button></a>
+                  
+    </footer>
+</html>
